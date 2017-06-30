@@ -1,0 +1,45 @@
+package framgia.co.train.example.datatype;
+
+public class TestConvert {
+	public void addTwoNumber() {
+		int num1 = 10;
+		int num2 = 10;
+		int num3 = num1 + num2;
+		System.out.println("sum two number: " + num1 + " + " + num2 + " = " + num3);
+	}
+
+	public void widening() {
+		int a = 10;
+		float f = a;
+		System.out.println("--- Windening ----");
+		System.out.println("type int: " + a);
+		System.out.println("int -> float: " + f);
+	}
+
+	public void narrowing() {
+		System.out.println("--- narrowing ----");
+		double d = 10.05d;
+		int a = (int) d;
+		System.out.println("type double: " + d);
+		System.out.println("double -> int: " + a);
+	}
+
+	public void overflow() {
+
+		int a = 130;
+		byte b = (byte) a;
+		System.out.println("--- overflow ----");
+		System.out.println("type int: " + a);
+		System.out.println("int -> byte: " + b);
+	}
+public return_type addingLowerType() {
+	
+}
+	public static void main(String[] args) {
+		TestConvert test = new TestConvert();
+		test.addTwoNumber();
+		test.widening();
+		test.narrowing();
+		test.overflow();
+	}
+}

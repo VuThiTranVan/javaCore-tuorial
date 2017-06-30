@@ -1,0 +1,7 @@
+package framgia.co.train.example.datatype;
+
+public class testConvert {
+	public static void main(String[] args) {
+		
+	}
+}

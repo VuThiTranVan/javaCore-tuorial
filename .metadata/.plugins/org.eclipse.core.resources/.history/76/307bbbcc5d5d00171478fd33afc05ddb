@@ -1,0 +1,14 @@
+package framgia.co.train.example.datatype;
+
+public class TestConvert {
+	public void addTwoNumber() {
+		int num1 = 10;
+		int num2 = 10;
+		int num3 = num1 + num2;
+		System.out.println(num3);
+	}
+
+	public static void main(String[] args) {
+TestConvert test = new TestConvert();
+	}
+}
