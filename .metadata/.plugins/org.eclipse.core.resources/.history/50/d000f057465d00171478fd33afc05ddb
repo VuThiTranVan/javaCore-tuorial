@@ -1,0 +1,19 @@
+package framgia.co.train.example;
+
+public class LocalVariable {
+	/*
+	 * Introduce
+	 * is a variable that’s declared within the body of a method.
+	 * Then you can use the variable only within that method.
+	 * Other methods in the class aren’t even aware that the variable exists.
+	 * No default value for local variables
+	 */
+
+	public return_type name() {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
