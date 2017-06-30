@@ -26,6 +26,8 @@ public class StaticVariable {
 	}
 
 	public static void main(String[] args) {
+		char azsxa =13;
+		System.out.println(azsxa);
 		System.out.println("1. print value b by call name class: " + StaticVariable.b);
 
 		System.out.println("-----staticVariable-----");
