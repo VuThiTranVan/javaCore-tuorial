@@ -1,0 +1,6 @@
+package framgia.co.train.example;
+
+public class InstanceVariable {
+
+	// None static
+}

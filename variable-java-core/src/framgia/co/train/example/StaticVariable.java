@@ -34,15 +34,16 @@ public class StaticVariable {
 		staticVariable.increment();
 		staticVariable.showData();
 
-		System.out.println("2. print value b by call name class: " + staticVariable.b);
+		System.out.println("2. print value b by call name class: " + StaticVariable.b);
 
 		System.out.println("-----staticVariable1-----");
 		StaticVariable staticVariable1 = new StaticVariable();
 		staticVariable1.increment();
 		staticVariable1.showData();
 
-		System.out.println("3. print value b by call name class: " + staticVariable.b);
+		System.out.println("3. print value b by call name class: " + StaticVariable.b);
 
+		System.out.println("constant: " + StaticVariable.NAME_CO);
 	}
 
 	/*
@@ -56,5 +57,12 @@ public class StaticVariable {
 		System.out.println("Hello work. This is sample static variable.");
 		System.out.println("*****");
 	}
+
+	/*
+	 * is a constant final variable always needs initialization If you don’t
+	 * initialize it would throw a compilation error
+	 * "might not have been initialized" No change value
+	 */
+	public static final String NAME_CO = "Framgia";
 
 }
