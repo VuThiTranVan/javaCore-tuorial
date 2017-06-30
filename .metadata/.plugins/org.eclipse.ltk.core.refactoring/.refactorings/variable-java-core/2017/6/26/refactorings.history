@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;framgia.co.train.example.staticVariable&apos; to &apos;StaticVariable&apos;&#x0A;- Original project: &apos;variable-java-core&apos;&#x0A;- Original element: &apos;framgia.co.train.example.staticVariable&apos;&#x0A;- Renamed element: &apos;framgia.co.train.example.StaticVariable&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;staticVariable&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;framgia.co.train.example{staticVariable.java[staticVariable" matchStrategy="1" name="StaticVariable" qualified="false" references="true" similarDeclarations="false" stamp="1498792749000" textual="false" version="1.0"/>
+</session>

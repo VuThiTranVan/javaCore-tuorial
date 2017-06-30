@@ -1,0 +1,10 @@
+package framgia.co.train.example;
+
+public class staticVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
