@@ -14,5 +14,4 @@ INDEX VERSION 1.130+/home/framgia/vanvtt/document-train-java/sourcecode/.metadat
 2233963263.index
 3721837726.index
 2771403403.index
-3276793869.index
 1932949083.index
